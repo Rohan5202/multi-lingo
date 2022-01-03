@@ -13,7 +13,7 @@ if not os.path.isdir(os.path.join(os.getcwd(),'images')):
 
 custom_config = r'--oem 3 --psm 6'
 
-pytesseract.pytesseract.tesseract_cmd = r'./.apt/usr/share/tesseract-ocr/4.00/tessdata'
+pytesseract.pytesseract.tesseract_cmd = r'/.apt/usr/share/tesseract-ocr/4.00/tessdata'
 # print(googletrans.LANGUAGES)
 @app.route("/")
 def front():
